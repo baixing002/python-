@@ -1,0 +1,54 @@
+{
+  "uid" : "30d888a110b5a3a3",
+  "name" : "test_inside_the_normal_severity_test_class",
+  "fullName" : "test_severity.TestClassWithNormalSeverity#test_inside_the_normal_severity_test_class",
+  "historyId" : "02eb7f50a57dd45a9cc488080f99348f",
+  "time" : {
+    "start" : 1613663068797,
+    "stop" : 1613663068797,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite",
+    "value" : "test_severity"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestClassWithNormalSeverity"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-39CMD4K"
+  }, {
+    "name" : "thread",
+    "value" : "30584-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_severity"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "30d888a110b5a3a3.json",
+  "parameterValues" : [ ]
+}

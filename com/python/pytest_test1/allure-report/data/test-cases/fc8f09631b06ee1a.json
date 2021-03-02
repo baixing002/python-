@@ -1,0 +1,150 @@
+{
+  "uid" : "fc8f09631b06ee1a",
+  "name" : "test_steps_demo[allure]",
+  "fullName" : "test_baidudemo#test_steps_demo",
+  "historyId" : "77446bc5c35b2e2394141393a0922721",
+  "time" : {
+    "start" : 1613923096878,
+    "stop" : 1613923105564,
+    "duration" : 8686
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "打开百度网页",
+      "time" : {
+        "start" : 1613923096878,
+        "stop" : 1613923099066,
+        "duration" : 2188
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入搜索词allure",
+      "time" : {
+        "start" : 1613923099066,
+        "stop" : 1613923103169,
+        "duration" : 4103
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "保存图片",
+      "time" : {
+        "start" : 1613923103169,
+        "stop" : 1613923103489,
+        "duration" : 320
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2053c67b9713e621",
+        "name" : "413c770b-f889-4979-a0cd-7ce289adb945-attachment.png",
+        "source" : "2053c67b9713e621.png",
+        "type" : "image/png",
+        "size" : 439041
+      }, {
+        "uid" : "ebbda6a35c8c64bd",
+        "name" : "Attach with HTML type",
+        "source" : "ebbda6a35c8c64bd.html",
+        "type" : "text/html",
+        "size" : 32
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "关闭浏览器",
+      "time" : {
+        "start" : 1613923103489,
+        "stop" : 1613923105564,
+        "duration" : 2075
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "百度搜索"
+  }, {
+    "name" : "suite",
+    "value" : "test_baidudemo"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-39CMD4K"
+  }, {
+    "name" : "thread",
+    "value" : "3892-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_baidudemo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data1",
+    "value" : "'allure'"
+  } ],
+  "links" : [ {
+    "name" : "http://www.github.com",
+    "url" : "http://www.github.com",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2a8152949a371eba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613922957372,
+        "stop" : 1613922965942,
+        "duration" : 8570
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fc8f09631b06ee1a.json",
+  "parameterValues" : [ "'allure'" ]
+}

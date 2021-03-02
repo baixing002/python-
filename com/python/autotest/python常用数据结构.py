@@ -1,0 +1,36 @@
+"""
+列表
+list.append(x)
+list.insert(i,x)
+list.remove(x)
+list.pop([i])
+list.sort(key=none,reverse=false):对列表中的元素进行排序
+list.reverse()：反转列表中的元素
+"""
+list_1=[1,2,3]
+list_2=[1,5,4,6,3,2,9,7,10]
+list_1.append(0)
+list_1.append(3)
+list_1.append(6)
+print(list_1)
+#insert
+# list_1.insert(2,10)
+# list_1.insert(1,10)
+list_1.insert(0,10)
+list_1.insert(1,20)
+print(list_1)
+#remove
+list_1.remove(6)
+print(list_1)
+#pop,有返回值（返回删掉的值）
+list_1.pop(0)
+y=list_1.pop(0)
+print(list_1)
+print(y)
+#sort
+list_2.sort()
+list_2.sort(reverse=True)
+print(list_2)
+#list.reverse()
+list_2.reverse()
+print(list_2)

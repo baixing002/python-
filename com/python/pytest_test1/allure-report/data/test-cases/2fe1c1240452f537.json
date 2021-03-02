@@ -1,0 +1,80 @@
+{
+  "uid" : "2fe1c1240452f537",
+  "name" : "test_attach_photo",
+  "fullName" : "test_attach#test_attach_photo",
+  "historyId" : "c96a6a5db98e26f72af10e1cd5f5d6c7",
+  "time" : {
+    "start" : 1613912849964,
+    "stop" : 1613912849964,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "OSError: [Errno 22] Invalid argument: 'E:\\\\PythonData\\\\com\\\\python\\\\pytest_test1\\resource\\x8210220.jpg'",
+  "statusTrace" : "def test_attach_photo():\n>       allure.attach.file(\"E:\\PythonData\\com\\python\\pytest_test1\\resource\\20210220.jpg\",\n                      name=\"这是一个图片\",attachment_type=allure.attachment_type.JPG)\n\ntest_attach.py:15: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nc:\\users\\86182\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\allure_commons\\_allure.py:182: in file\n    plugin_manager.hook.attach_file(source=source, name=name, attachment_type=attachment_type, extension=extension)\nc:\\users\\86182\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pluggy\\hooks.py:286: in __call__\n    return self._hookexec(self, self.get_hookimpls(), kwargs)\nc:\\users\\86182\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pluggy\\manager.py:93: in _hookexec\n    return self._inner_hookexec(hook, methods, kwargs)\nc:\\users\\86182\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pluggy\\manager.py:84: in <lambda>\n    self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(\nc:\\users\\86182\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\allure_pytest\\listener.py:224: in attach_file\n    self.allure_logger.attach_file(uuid4(), source, name=name, attachment_type=attachment_type, extension=extension)\nc:\\users\\86182\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\allure_commons\\reporter.py:113: in attach_file\n    plugin_manager.hook.report_attached_file(source=source, file_name=file_name)\nc:\\users\\86182\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pluggy\\hooks.py:286: in __call__\n    return self._hookexec(self, self.get_hookimpls(), kwargs)\nc:\\users\\86182\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pluggy\\manager.py:93: in _hookexec\n    return self._inner_hookexec(hook, methods, kwargs)\nc:\\users\\86182\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pluggy\\manager.py:84: in <lambda>\n    self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(\nc:\\users\\86182\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\allure_commons\\logger.py:53: in report_attached_file\n    shutil.copy2(source, destination)\nc:\\users\\86182\\appdata\\local\\programs\\python\\python39\\lib\\shutil.py:435: in copy2\n    copyfile(src, dst, follow_symlinks=follow_symlinks)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nsrc = 'E:\\\\PythonData\\\\com\\\\python\\\\pytest_test1\\resource\\x8210220.jpg'\ndst = 'E:\\\\PythonData\\\\com\\\\python\\\\pytest_test1\\\\result\\\\test_attach\\\\fb18e77b-ea57-446d-a761-c9ddc34673d7-attachment.jpg'\n\n    def copyfile(src, dst, *, follow_symlinks=True):\n        \"\"\"Copy data from src to dst in the most efficient way possible.\n    \n        If follow_symlinks is not set and src is a symbolic link, a new\n        symlink will be created instead of copying the file it points to.\n    \n        \"\"\"\n        sys.audit(\"shutil.copyfile\", src, dst)\n    \n        if _samefile(src, dst):\n            raise SameFileError(\"{!r} and {!r} are the same file\".format(src, dst))\n    \n        file_size = 0\n        for i, fn in enumerate([src, dst]):\n            try:\n                st = _stat(fn)\n            except OSError:\n                # File most likely does not exist\n                pass\n            else:\n                # XXX What about other special files? (sockets, devices...)\n                if stat.S_ISFIFO(st.st_mode):\n                    fn = fn.path if isinstance(fn, os.DirEntry) else fn\n                    raise SpecialFileError(\"`%s` is a named pipe\" % fn)\n                if _WINDOWS and i == 0:\n                    file_size = st.st_size\n    \n        if not follow_symlinks and _islink(src):\n            os.symlink(os.readlink(src), dst)\n        else:\n>           with open(src, 'rb') as fsrc, open(dst, 'wb') as fdst:\nE           OSError: [Errno 22] Invalid argument: 'E:\\\\PythonData\\\\com\\\\python\\\\pytest_test1\\resource\\x8210220.jpg'\n\nc:\\users\\86182\\appdata\\local\\programs\\python\\python39\\lib\\shutil.py:264: OSError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "OSError: [Errno 22] Invalid argument: 'E:\\\\PythonData\\\\com\\\\python\\\\pytest_test1\\resource\\x8210220.jpg'",
+    "statusTrace" : "def test_attach_photo():\n>       allure.attach.file(\"E:\\PythonData\\com\\python\\pytest_test1\\resource\\20210220.jpg\",\n                      name=\"这是一个图片\",attachment_type=allure.attachment_type.JPG)\n\ntest_attach.py:15: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nc:\\users\\86182\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\allure_commons\\_allure.py:182: in file\n    plugin_manager.hook.attach_file(source=source, name=name, attachment_type=attachment_type, extension=extension)\nc:\\users\\86182\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pluggy\\hooks.py:286: in __call__\n    return self._hookexec(self, self.get_hookimpls(), kwargs)\nc:\\users\\86182\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pluggy\\manager.py:93: in _hookexec\n    return self._inner_hookexec(hook, methods, kwargs)\nc:\\users\\86182\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pluggy\\manager.py:84: in <lambda>\n    self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(\nc:\\users\\86182\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\allure_pytest\\listener.py:224: in attach_file\n    self.allure_logger.attach_file(uuid4(), source, name=name, attachment_type=attachment_type, extension=extension)\nc:\\users\\86182\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\allure_commons\\reporter.py:113: in attach_file\n    plugin_manager.hook.report_attached_file(source=source, file_name=file_name)\nc:\\users\\86182\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pluggy\\hooks.py:286: in __call__\n    return self._hookexec(self, self.get_hookimpls(), kwargs)\nc:\\users\\86182\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pluggy\\manager.py:93: in _hookexec\n    return self._inner_hookexec(hook, methods, kwargs)\nc:\\users\\86182\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pluggy\\manager.py:84: in <lambda>\n    self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(\nc:\\users\\86182\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\allure_commons\\logger.py:53: in report_attached_file\n    shutil.copy2(source, destination)\nc:\\users\\86182\\appdata\\local\\programs\\python\\python39\\lib\\shutil.py:435: in copy2\n    copyfile(src, dst, follow_symlinks=follow_symlinks)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nsrc = 'E:\\\\PythonData\\\\com\\\\python\\\\pytest_test1\\resource\\x8210220.jpg'\ndst = 'E:\\\\PythonData\\\\com\\\\python\\\\pytest_test1\\\\result\\\\test_attach\\\\fb18e77b-ea57-446d-a761-c9ddc34673d7-attachment.jpg'\n\n    def copyfile(src, dst, *, follow_symlinks=True):\n        \"\"\"Copy data from src to dst in the most efficient way possible.\n    \n        If follow_symlinks is not set and src is a symbolic link, a new\n        symlink will be created instead of copying the file it points to.\n    \n        \"\"\"\n        sys.audit(\"shutil.copyfile\", src, dst)\n    \n        if _samefile(src, dst):\n            raise SameFileError(\"{!r} and {!r} are the same file\".format(src, dst))\n    \n        file_size = 0\n        for i, fn in enumerate([src, dst]):\n            try:\n                st = _stat(fn)\n            except OSError:\n                # File most likely does not exist\n                pass\n            else:\n                # XXX What about other special files? (sockets, devices...)\n                if stat.S_ISFIFO(st.st_mode):\n                    fn = fn.path if isinstance(fn, os.DirEntry) else fn\n                    raise SpecialFileError(\"`%s` is a named pipe\" % fn)\n                if _WINDOWS and i == 0:\n                    file_size = st.st_size\n    \n        if not follow_symlinks and _islink(src):\n            os.symlink(os.readlink(src), dst)\n        else:\n>           with open(src, 'rb') as fsrc, open(dst, 'wb') as fdst:\nE           OSError: [Errno 22] Invalid argument: 'E:\\\\PythonData\\\\com\\\\python\\\\pytest_test1\\resource\\x8210220.jpg'\n\nc:\\users\\86182\\appdata\\local\\programs\\python\\python39\\lib\\shutil.py:264: OSError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "name" : "这是一个图片",
+      "type" : "image/jpg",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_attach"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-39CMD4K"
+  }, {
+    "name" : "thread",
+    "value" : "24828-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_attach"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a7eaeb1907954d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613833890706,
+        "stop" : 1613833890706,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2fe1c1240452f537.json",
+  "parameterValues" : [ ]
+}

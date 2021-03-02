@@ -1,0 +1,68 @@
+{
+  "uid" : "78ecd188a5d6eca8",
+  "name" : "test_with_link",
+  "fullName" : "test_alluredemo_link_issue_case#test_with_link",
+  "historyId" : "0e57f55d2260541f41ff55c5a7f052fa",
+  "time" : {
+    "start" : 1613656072404,
+    "stop" : 1613656072405,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9ae04c1a95c9e302",
+      "name" : "stdout",
+      "source" : "9ae04c1a95c9e302.txt",
+      "type" : "text/plain",
+      "size" : 35
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_alluredemo_link_issue_case"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-39CMD4K"
+  }, {
+    "name" : "thread",
+    "value" : "24840-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_alluredemo_link_issue_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "链接",
+    "url" : "http://www.baidu.com",
+    "type" : "link"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "78ecd188a5d6eca8.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,56 @@
+{
+  "uid" : "a0c81930805c4ebd",
+  "name" : "test_broken",
+  "fullName" : "test_report_allure_demo1#test_broken",
+  "historyId" : "4955e480929ffcf89f884f590f96942f",
+  "time" : {
+    "start" : 1613568330171,
+    "stop" : 1613568330171,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "Exception: oops",
+  "statusTrace" : "def test_broken():\n>       raise Exception('oops')\nE       Exception: oops\n\ntest_report_allure_demo1.py:22: Exception",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_report_allure_demo1"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-39CMD4K"
+  }, {
+    "name" : "thread",
+    "value" : "32908-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_report_allure_demo1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a0c81930805c4ebd.json",
+  "parameterValues" : [ ]
+}

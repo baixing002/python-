@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Wed Feb 17 21:25:30 GMT+08:00 2021","Wed Feb 17 21:25:30 GMT+08:00 2021","0","","test_report_allure_demo1","","","","test_failure","this test fails"
+"skipped","Wed Feb 17 21:25:30 GMT+08:00 2021","Wed Feb 17 21:25:30 GMT+08:00 2021","0","","test_report_allure_demo1","","","","test_skip","this test is skipped"
+"broken","Wed Feb 17 21:25:30 GMT+08:00 2021","Wed Feb 17 21:25:30 GMT+08:00 2021","0","","test_report_allure_demo1","","","","test_broken",""
+"passed","Wed Feb 17 21:25:30 GMT+08:00 2021","Wed Feb 17 21:25:30 GMT+08:00 2021","0","","test_report_allure_demo1","","","","test_success","this test succeeds"

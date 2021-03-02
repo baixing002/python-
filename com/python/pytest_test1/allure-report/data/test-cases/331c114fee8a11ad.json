@@ -1,0 +1,68 @@
+{
+  "uid" : "331c114fee8a11ad",
+  "name" : "test_with_testcase_link",
+  "fullName" : "test_alluredemo_link_issue_case#test_with_testcase_link",
+  "historyId" : "4b960c1025970b1a9008799eabb3cea4",
+  "time" : {
+    "start" : 1613656072407,
+    "stop" : 1613656072407,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "190223c10187101a",
+      "name" : "stdout",
+      "source" : "190223c10187101a.txt",
+      "type" : "text/plain",
+      "size" : 65
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_alluredemo_link_issue_case"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-39CMD4K"
+  }, {
+    "name" : "thread",
+    "value" : "24840-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_alluredemo_link_issue_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "登录用例",
+    "url" : "https://github.com/qameta/allure-integrations/issues/8#issuecomment-268313637",
+    "type" : "test_case"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "331c114fee8a11ad.json",
+  "parameterValues" : [ ]
+}

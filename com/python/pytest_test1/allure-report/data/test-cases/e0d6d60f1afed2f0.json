@@ -1,0 +1,150 @@
+{
+  "uid" : "e0d6d60f1afed2f0",
+  "name" : "test_steps_demo[pytest]",
+  "fullName" : "test_baidudemo#test_steps_demo",
+  "historyId" : "78bf30ba964b80676a29ef86e279c69c",
+  "time" : {
+    "start" : 1613923105566,
+    "stop" : 1613923114174,
+    "duration" : 8608
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "打开百度网页",
+      "time" : {
+        "start" : 1613923105566,
+        "stop" : 1613923107706,
+        "duration" : 2140
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入搜索词pytest",
+      "time" : {
+        "start" : 1613923107706,
+        "stop" : 1613923111811,
+        "duration" : 4105
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "保存图片",
+      "time" : {
+        "start" : 1613923111811,
+        "stop" : 1613923112108,
+        "duration" : 297
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "16e367e740e2d1c9",
+        "name" : "26b11af5-9547-4dbb-b799-9e2231324ec8-attachment.png",
+        "source" : "16e367e740e2d1c9.png",
+        "type" : "image/png",
+        "size" : 316853
+      }, {
+        "uid" : "438796e6308bf1e8",
+        "name" : "Attach with HTML type",
+        "source" : "438796e6308bf1e8.html",
+        "type" : "text/html",
+        "size" : 32
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "关闭浏览器",
+      "time" : {
+        "start" : 1613923112108,
+        "stop" : 1613923114174,
+        "duration" : 2066
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "百度搜索"
+  }, {
+    "name" : "suite",
+    "value" : "test_baidudemo"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-39CMD4K"
+  }, {
+    "name" : "thread",
+    "value" : "3892-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_baidudemo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data1",
+    "value" : "'pytest'"
+  } ],
+  "links" : [ {
+    "name" : "http://www.github.com",
+    "url" : "http://www.github.com",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "da3ffc8ab89a634f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613922965950,
+        "stop" : 1613922974479,
+        "duration" : 8529
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e0d6d60f1afed2f0.json",
+  "parameterValues" : [ "'pytest'" ]
+}

@@ -1,0 +1,136 @@
+{
+  "uid" : "c6c5d8d2b848dd94",
+  "name" : "test_add[bigint]",
+  "fullName" : "test_calc_new.TestCalc#test_add",
+  "historyId" : "985e0ef55ec79c83e07d71449373fd04",
+  "time" : {
+    "start" : 1614506015640,
+    "stop" : 1614506015640,
+    "duration" : 0
+  },
+  "description" : "\n        实例化计算器 ： self.calc = Calculator()\n        定义result变量接收add方法的返回值\n        调用相加方法\n        ",
+  "descriptionHtml" : "<pre><code>    实例化计算器 ： self.calc = Calculator()\n    定义result变量接收add方法的返回值\n    调用相加方法\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_datas",
+    "time" : {
+      "start" : 1614506015639,
+      "stop" : 1614506015639,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "get_calc",
+    "time" : {
+      "start" : 1614506015636,
+      "stop" : 1614506015636,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        实例化计算器 ： self.calc = Calculator()\n        定义result变量接收add方法的返回值\n        调用相加方法\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "计算两个数的相加和",
+      "time" : {
+        "start" : 1614506015640,
+        "stop" : 1614506015640,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "get_datas::0",
+    "time" : {
+      "start" : 1614506015641,
+      "stop" : 1614506015641,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试计算器"
+  }, {
+    "name" : "story",
+    "value" : "测试加法"
+  }, {
+    "name" : "tag",
+    "value" : "add"
+  }, {
+    "name" : "suite",
+    "value" : "test_calc_new"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalc"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-39CMD4K"
+  }, {
+    "name" : "thread",
+    "value" : "38968-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_calc_new"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "get_datas",
+    "value" : "[100, 100, 200]"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "add" ]
+  },
+  "source" : "c6c5d8d2b848dd94.json",
+  "parameterValues" : [ "[100, 100, 200]" ]
+}

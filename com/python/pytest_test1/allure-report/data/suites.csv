@@ -1,0 +1,47 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Feb 17 21:25:30 GMT+08:00 2021","Wed Feb 17 21:25:30 GMT+08:00 2021","0","","test_report_allure_demo1","","","","test_success","this test succeeds"
+"failed","Wed Feb 17 21:25:30 GMT+08:00 2021","Wed Feb 17 21:25:30 GMT+08:00 2021","0","","test_report_allure_demo1","","","","test_failure","this test fails"
+"broken","Wed Feb 17 21:25:30 GMT+08:00 2021","Wed Feb 17 21:25:30 GMT+08:00 2021","0","","test_report_allure_demo1","","","","test_broken",""
+"skipped","Wed Feb 17 21:25:30 GMT+08:00 2021","Wed Feb 17 21:25:30 GMT+08:00 2021","0","","test_report_allure_demo1","","","","test_skip","this test is skipped"
+"passed","Wed Feb 17 23:26:15 GMT+08:00 2021","Wed Feb 17 23:26:15 GMT+08:00 2021","0","","test_feature_story","TestLogin","","","test_login_failure",""
+"passed","Wed Feb 17 23:26:15 GMT+08:00 2021","Wed Feb 17 23:26:15 GMT+08:00 2021","1","","test_feature_story","TestLogin","","","test_login_success",""
+"failed","Wed Feb 17 23:26:15 GMT+08:00 2021","Wed Feb 17 23:26:15 GMT+08:00 2021","0","","test_feature_story","TestLogin","","","test_login_failure_c",""
+"passed","Wed Feb 17 23:26:15 GMT+08:00 2021","Wed Feb 17 23:26:15 GMT+08:00 2021","0","","test_feature_story","TestLogin","","","test_login_failure_a",""
+"passed","Thu Feb 18 22:17:37 GMT+08:00 2021","Thu Feb 18 22:17:37 GMT+08:00 2021","0","","test_alluredemo_link_issue_case","","","","test_with_issue_link",""
+"passed","Thu Feb 18 22:17:37 GMT+08:00 2021","Thu Feb 18 22:17:37 GMT+08:00 2021","0","","test_alluredemo_link_issue_case","","","","test_with_testcase_link",""
+"passed","Thu Feb 18 22:17:37 GMT+08:00 2021","Thu Feb 18 22:17:37 GMT+08:00 2021","0","","test_alluredemo_link_issue_case","","","","test_with_link",""
+"passed","Sat Feb 20 22:19:40 GMT+08:00 2021","Sat Feb 20 22:19:40 GMT+08:00 2021","0","","test_severity","TestClassWithNormalSeverity","","","test_inside_the_normal_severity_test_class",""
+"passed","Sat Feb 20 22:19:40 GMT+08:00 2021","Sat Feb 20 22:19:40 GMT+08:00 2021","0","","test_severity","TestClassWithNormalSeverity","","","test_inside_the_normal_severity_test_class_with_overriding_critical_severity",""
+"passed","Sat Feb 20 22:19:40 GMT+08:00 2021","Sat Feb 20 22:19:40 GMT+08:00 2021","0","","test_severity","","","","test_with_normal_severity",""
+"passed","Sun Feb 21 21:07:30 GMT+08:00 2021","Sun Feb 21 21:07:30 GMT+08:00 2021","1","","test_attach","","","","test_attach_photo_test",""
+"passed","Sun Feb 21 21:07:29 GMT+08:00 2021","Sun Feb 21 21:07:29 GMT+08:00 2021","0","","test_attach","","","","test_attach_text",""
+"broken","Sun Feb 21 21:07:29 GMT+08:00 2021","Sun Feb 21 21:07:29 GMT+08:00 2021","0","","test_attach","","","","test_attach_photo",""
+"passed","Sun Feb 21 21:07:29 GMT+08:00 2021","Sun Feb 21 21:07:29 GMT+08:00 2021","0","","test_attach","","","","test_attach_html",""
+"passed","Sun Feb 21 23:58:34 GMT+08:00 2021","Sun Feb 21 23:58:42 GMT+08:00 2021","8660","","test_baidudemo","","","","test_steps_demo[unittest]",""
+"passed","Sun Feb 21 23:58:25 GMT+08:00 2021","Sun Feb 21 23:58:34 GMT+08:00 2021","8608","","test_baidudemo","","","","test_steps_demo[pytest]",""
+"passed","Sun Feb 21 23:58:16 GMT+08:00 2021","Sun Feb 21 23:58:25 GMT+08:00 2021","8686","","test_baidudemo","","","","test_steps_demo[allure]",""
+"passed","Sun Feb 28 18:28:13 GMT+08:00 2021","Sun Feb 28 18:28:13 GMT+08:00 2021","0","","test_calc_new","TestCalc","","","test_add[float]","
+        实例化计算器 ： self.calc = Calculator()
+        定义result变量接收add方法的返回值
+        调用相加方法
+        "
+"passed","Sun Feb 28 18:28:13 GMT+08:00 2021","Sun Feb 28 18:28:13 GMT+08:00 2021","0","","test_calc_new","TestCalc","","","test_add[minus]","
+        实例化计算器 ： self.calc = Calculator()
+        定义result变量接收add方法的返回值
+        调用相加方法
+        "
+"passed","Sun Feb 28 18:28:13 GMT+08:00 2021","Sun Feb 28 18:28:13 GMT+08:00 2021","0","","test_calc_new","TestCalc","","","test_add[bigint]","
+        实例化计算器 ： self.calc = Calculator()
+        定义result变量接收add方法的返回值
+        调用相加方法
+        "
+"passed","Sun Feb 28 18:28:13 GMT+08:00 2021","Sun Feb 28 18:28:13 GMT+08:00 2021","0","","test_calc_new","TestCalc","","","test_add[int]","
+        实例化计算器 ： self.calc = Calculator()
+        定义result变量接收add方法的返回值
+        调用相加方法
+        "
+"failed","Sun Feb 28 18:28:13 GMT+08:00 2021","Sun Feb 28 18:28:13 GMT+08:00 2021","0","","test_calc_new","TestCalc","","","test_add[failed]","
+        实例化计算器 ： self.calc = Calculator()
+        定义result变量接收add方法的返回值
+        调用相加方法
+        "
